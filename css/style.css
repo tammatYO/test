@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'GardensC.otf', sans-serif;
+}
+
+.container {
+  width: 1440px;
+  margin: auto;
+}
+
+.button {
+  padding: 10px 25px;
+  font-size: 18px;
+  border: none;
+  color: white;
+  background: #6595ee;
+  border-radius: 20px;
+}
+
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+}
+
+.header_logo {
+  width: 120px;
+  height: 70px;
+}
+
+.header_tel {
+  text-decoration: none;
+  color: black;
+  margin-left: 700px;
+  font-size: 18px;
+}
+
+.line {
+  margin-top: 40px;
+  height: 2px;
+  background: #6595ee;
+}
+
+.section_slider {
+  display: flex;
+  align-items: center;
+}
+
+.slider_block {
+  text-align: center;
+  margin: auto;
+  padding-top: 60px;
+  width: 700px;
+  height: 300px;
+  margin-top: 200px;
+  background: #ece6e6;
+  border-radius: 20px;
+}
+
+.slider_arrow_left {
+  margin-top: 200px;
+  margin-left: 200px;
+  width: 75px;
+}
+
+.slider_arrow_right {
+  margin-top: 200px;
+  margin-right: 200px;
+  width: 75px;
+}
+
+.slider_main {
+  font-size: 36px;
+  position: absolute;
+  top: 250px;
+  left: 780px;
+}
+
+.section_review {
+  background: #3992b66b;
+}
+
+.main {
+  margin-top: 200px;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.card_first {
+  background: url("../img/bg1.png");
+  display: flex;
+}
+
+.card_first_img {
+  border-radius: 20px;
+}
+
+.card_first_text {
+  font-size: 24px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.card_second {
+  margin-top: 50px;
+  display: flex;
+  background: url("../img/bg1.png");
+}
+
+.card_second_img {
+  border-radius: 20px;
+}
+
+.card_second_text {
+  font-size: 24px;
+  margin: 20px;
+}
+
+.something {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.products_card {
+  margin-top: 40px;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  background: #6595ee;
+  border-radius: 20px;
+  padding-top: 8px;
+}
+
+.products_card_img {
+  border-radius: 20px;
+}
+
+.products_card_name {
+  font-size: 18px;
+}
+
+.products_card_price {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.right {
+  margin-top: 200px;
+  width: 75px;
+  height: 75px;
+}
+
+.brands {
+  text-align: center;
+}
+
+.brands_main {
+  margin-top: 50px;
+  font-size: 36px;
+}
+
+.brands_names {
+  margin-top: 100px;
+  text-decoration: underline;
+  margin-bottom: 100px;
+}
+
+.pip {
+  display: flex;
+}
+
+.advices {
+  background: #6595ee;
+  padding-top: 200px;
+}
+
+.advices_img {
+  border-radius: 20px;
+}
+
+.advices_main {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.advices_block_text {
+  font-size: 44px;
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
